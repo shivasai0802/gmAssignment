@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		58E996BB25B5132900D19A00 /* readme in Resources */ = {isa = PBXBuildFile; fileRef = 58E996BA25B5132900D19A00 /* readme */; };
 		58E9A84125B50F7500902CFC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58E9A84025B50F7500902CFC /* AppDelegate.swift */; };
-		58E9A84325B50F7500902CFC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58E9A84225B50F7500902CFC /* SceneDelegate.swift */; };
 		58E9A84525B50F7500902CFC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58E9A84425B50F7500902CFC /* ViewController.swift */; };
 		58E9A84825B50F7500902CFC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 58E9A84625B50F7500902CFC /* Main.storyboard */; };
 		58E9A84B25B50F7500902CFC /* GMAssignment.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 58E9A84925B50F7500902CFC /* GMAssignment.xcdatamodeld */; };
@@ -36,9 +36,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		58E996BA25B5132900D19A00 /* readme */ = {isa = PBXFileReference; lastKnownFileType = text; path = readme; sourceTree = "<group>"; };
 		58E9A83D25B50F7500902CFC /* GMAssignment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GMAssignment.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		58E9A84025B50F7500902CFC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		58E9A84225B50F7500902CFC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		58E9A84425B50F7500902CFC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		58E9A84725B50F7500902CFC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		58E9A84A25B50F7500902CFC /* GMAssignment.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = GMAssignment.xcdatamodel; sourceTree = "<group>"; };
@@ -102,13 +102,13 @@
 			isa = PBXGroup;
 			children = (
 				58E9A84025B50F7500902CFC /* AppDelegate.swift */,
-				58E9A84225B50F7500902CFC /* SceneDelegate.swift */,
 				58E9A84425B50F7500902CFC /* ViewController.swift */,
 				58E9A84625B50F7500902CFC /* Main.storyboard */,
 				58E9A84C25B50F7A00902CFC /* Assets.xcassets */,
 				58E9A84E25B50F7A00902CFC /* LaunchScreen.storyboard */,
 				58E9A85125B50F7A00902CFC /* Info.plist */,
 				58E9A84925B50F7500902CFC /* GMAssignment.xcdatamodeld */,
+				58E996BA25B5132900D19A00 /* readme */,
 			);
 			path = GMAssignment;
 			sourceTree = "<group>";
@@ -234,6 +234,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				58E996BB25B5132900D19A00 /* readme in Resources */,
 				58E9A85025B50F7A00902CFC /* LaunchScreen.storyboard in Resources */,
 				58E9A84D25B50F7A00902CFC /* Assets.xcassets in Resources */,
 				58E9A84825B50F7500902CFC /* Main.storyboard in Resources */,
@@ -264,7 +265,6 @@
 				58E9A84525B50F7500902CFC /* ViewController.swift in Sources */,
 				58E9A84125B50F7500902CFC /* AppDelegate.swift in Sources */,
 				58E9A84B25B50F7500902CFC /* GMAssignment.xcdatamodeld in Sources */,
-				58E9A84325B50F7500902CFC /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
